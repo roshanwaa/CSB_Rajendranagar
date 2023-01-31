@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
 
 .main__title,
 .csb-logo {
   /* margin: 10px; */
-  font-family: "Moon Dance", cursive;
+  font-family: 'Moon Dance', cursive;
 }
 
 #app {
@@ -74,7 +74,7 @@
 .textarea {
   font-size: 1rem;
   min-height: 4em;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .textarea::placeholder {
