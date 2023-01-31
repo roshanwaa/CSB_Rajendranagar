@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap");
+
+.main__title,
+.csb-logo {
+  /* margin: 10px; */
+  font-family: "Moon Dance", cursive;
+}
+
+#app {
+  display: flex;
+  width: auto;
+  height: 93.5vh;
+  min-height: fit-content;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  background: linear-gradient(
+    315deg,
+    #65005e 3%,
+    #3c84ce 38%,
+    #30eee2 68%,
+    #e46060 98%,
+    #39ccf18a 58%
+  );
+  animation: gradient 20s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.csb-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.c-font {
+  color: #357c3c;
+}
+
+.b-font {
+  color: #ff6464;
+}
+
+.branch-csb {
+  padding-left: 5px;
+  font-weight: bold;
+  padding-top: 10px;
+  color: #000000;
+  font-size: 15px;
+}
+
+.form-control,
+.textarea {
+  margin-bottom: 2rem;
+}
+
+.textarea {
+  font-size: 1rem;
+  min-height: 4em;
+  font-family: "Inter", sans-serif;
+}
+
+.textarea::placeholder {
+  color: rgba(63, 63, 63, 0.548);
+  font-size: 1.1rem;
+}
+
+.invalid input {
+  outline: none;
+  border: none;
+  border-bottom: 4px solid #850404;
+}
+
+label {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.invalid input:focus {
+  margin-top: 12px;
+  transition: 0.5s;
+  border-color: #c01206;
+}
+
+.error-text {
+  margin: 12px 0;
+  color: #850404;
+}

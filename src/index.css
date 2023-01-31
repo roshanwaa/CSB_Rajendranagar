@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+p {
+  font-family: "Inter", sans-serif;
+}
+
+.view-layout {
+  overflow-y: scroll;
+  width: 100%;
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: titleAnimation 0.4s forwards;
+  animation-timing-function: ease-in-out;
+}
+
+.box-placeholder {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 14px;
+  background: #e7dfdfb0;
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: titleAnimation 0.5s forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.3s;
+}
+
+@keyframes titleAnimation {
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0.2px;
+  border-color: rgba(0, 0, 0, 0.678);
+  border-radius: 0.55rem;
+}

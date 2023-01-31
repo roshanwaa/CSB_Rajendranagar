@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Sucrose Bold Two";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/sucrose.woff2")
+    format("woff2");
+}
+
+.card-title {
+  font-family: "Sucrose Bold Two";
+  font-size: 9vw;
+  line-height: 0.9;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.card-title:hover {
+  transition-duration: 0.4s;
+  color: #7a3e06;
+}
+.card-subTitle {
+  font-family: "Sucrose Bold Two";
+}
+
+.sub-para-usp {
+  margin: 1rem;
+  color: black;
+  font-weight: bold;
+}
+
+.box-placeholder-usp {
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.493);
+  cursor: pointer;
+  text-align: center;
+  max-width: 500px;
+  margin: 2rem;
+  background-color: #ff5c5cee;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  grid-template-columns: 1fr max-content;
+  column-gap: 3rem;
+  color: black;
+}
+
+.box-placeholder-usp:hover {
+  background-color: rgb(82, 19, 19);
+  transition: 0.5s;
+  color: white;
+  transform: translateY(-5px);
+  max-height: auto;
+}
+
+.head-usp {
+  margin-left: 2rem;
+}
+
+h3,
+p {
+  margin: 10px;
+  font-size: 18px;
+}
