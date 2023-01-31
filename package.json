@@ -1,12 +1,12 @@
 {
+  "homepage": "https://roshanwaa.github.io/CSB_Rajendranagar",
   "name": "csb",
   "version": "1.0.0",
   "description": "Chai Sutta Bar",
   "main": "index.js",
-  "homepage": "https://github.com/roshanwaa/Chai-Sutta-Bar",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -18,7 +18,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "dynamics.js": "^1.1.5",
-    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
@@ -27,7 +26,10 @@
     "skypack": "^0.3.2"
   },
   "eslintConfig": {
-    "extends": ["react-app", "react-app/jest"]
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "repository": {
     "type": "git",
@@ -38,10 +40,18 @@
   "bugs": {
     "url": "https://github.com/roshanwaa/Chai-Sutta-Bar/issues"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
   "development": [
     "last 1 chrome version",
     "last 1 firefox version",
     "last 1 safari version"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
