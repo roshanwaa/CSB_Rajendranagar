@@ -16,10 +16,10 @@ export const Header = () => {
           <Navbar />
           <Routes>
             <Route path="/CSB_Rajendranagar" element={<Home />} />
-            <Route path="/CSB_Rajendranagar/home" element={<Home />} />
-            <Route path="/CSB_Rajendranagar/menu" element={<MenuComponent />} />
-            <Route path="/CSB_Rajendranagar/about" element={<About />} />
-            <Route path="/CSB_Rajendranagar/contact" element={<Contact />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/menu" element={<MenuComponent />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
       </HashRouter>
