@@ -10,19 +10,17 @@ import { Navbar } from './Navbar';
 
 export const Header = () => {
   return (
-    <>
-      <HashRouter>
-        <div className="container">
-          <Navbar />
-          <Routes>
-            <Route path="/CSB_Rajendranagar" element={<Home />} />
-            <Route path="/home" element={<Home />} />
-            <Route path="/menu" element={<MenuComponent />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </div>
-      </HashRouter>
-    </>
+    <HashRouter>
+      <div className="container">
+        <Navbar />
+        <Routes>
+          <Route path="/CSB_Rajendranagar" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/menu" element={<MenuComponent />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+    </HashRouter>
   );
 };
