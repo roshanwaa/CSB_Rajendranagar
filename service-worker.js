@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/CSB_Rajendranagar/precache-manifest.42aa687557e9cf66ef285ba25edaa8a4.js"
+  "/CSB_Rajendranagar/precache-manifest.c22687f15f22d84c6d8e676911824e3f.js"
 );
 
 workbox.clientsClaim();

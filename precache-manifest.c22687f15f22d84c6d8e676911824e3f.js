@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6475a5ab9fdb61faf035",
+    "revision": "f612d42a2adceecdc4e8",
     "url": "/CSB_Rajendranagar/static/css/main.ee201fa5.chunk.css"
   },
   {
-    "revision": "6475a5ab9fdb61faf035",
-    "url": "/CSB_Rajendranagar/static/js/main.59a1e51a.chunk.js"
+    "revision": "f612d42a2adceecdc4e8",
+    "url": "/CSB_Rajendranagar/static/js/main.8533913c.chunk.js"
   },
   {
     "revision": "a2788f2d09fdfdef7ca3",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/CSB_Rajendranagar/static/js/2.896bae81.chunk.js"
   },
   {
-    "revision": "645cc954239a9982afc1ebd78e7c1688",
+    "revision": "66bc5329a58df89e0e32af14e4a23af7",
     "url": "/CSB_Rajendranagar/index.html"
   }
 ];
