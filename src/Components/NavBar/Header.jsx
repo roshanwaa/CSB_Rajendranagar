@@ -10,7 +10,7 @@ import { Navbar } from './Navbar';
 
 export const Header = () => {
   return (
-    <HashRouter>
+    <HashRouter basename="CSB_Rajendranagar">
       <div className="container">
         <Navbar />
         <Routes>
