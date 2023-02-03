@@ -5,6 +5,7 @@
   "description": "Chai Sutta Bar",
   "main": "index.js",
   "scripts": {
+    "dev": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
