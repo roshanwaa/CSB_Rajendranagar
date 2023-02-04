@@ -1,14 +1,10 @@
 {
-  "homepage": "https://roshanwaa.github.io/CSB_Rajendranagar",
   "name": "csb",
   "version": "1.0.0",
   "description": "Chai Sutta Bar",
   "main": "index.js",
   "private": false,
   "scripts": {
-    "dev": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -53,7 +49,5 @@
     "last 1 firefox version",
     "last 1 safari version"
   ],
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
-  }
+  "devDependencies": {}
 }
